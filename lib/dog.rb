@@ -7,7 +7,7 @@ class Dog
     @name = name
     @@all << name
  end
- def self.all?
+ def self.all
    @@all.each {|dog| puts "#{dog}"}
  end
 end
